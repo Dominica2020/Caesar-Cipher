@@ -40,9 +40,9 @@ def caesar(cipher_direction, start_text, shift_amount):
 #If they type 'yes' then ask them for the direction/text/shift again and call the caesar() function again?
 #Hint: Try creating a while loop that continues to execute the program if the user types 'yes'. 
 
-end = False
+should_continue = True
 
-while not end:
+while should_continue:
 
   direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
   text = input("Type your message:\n").lower()
@@ -53,5 +53,5 @@ while not end:
   restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
     
   if restart == "no":
-    end = True
+    should_continue = False
     print("See You Next Time.")
