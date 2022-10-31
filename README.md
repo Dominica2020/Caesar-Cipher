@@ -4,6 +4,7 @@
 - User can either encode or decode what they desire
 - The cipher will preserve spaces, symbols, and/or numbers at their location at input. Letters are only encoded.
 
+# Instructions
 - TODO-1: Import and print the logo from art.py when the program starts.
 - TODO-2: Code a safety net in case the user enters a shift that is greater than the number of letters in the alphabet
         #Try running the program and entering a shift number of 45.
