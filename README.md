@@ -1,8 +1,8 @@
 # About 
 (Project 8 out of 100 Days of Code Python Bootcamp)
-
 - Coded a Caesar Cipher using python
 - User can either encode or decode what they desire
+- The cipher will preserve spaces, symbols, and/or numbers at their location at input. Letters are only encoded.
 
 - TODO-1: Import and print the logo from art.py when the program starts.
 - TODO-2: Code a safety net in case the user enters a shift that is greater than the number of letters in the alphabet
